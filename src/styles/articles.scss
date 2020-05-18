@@ -1,0 +1,126 @@
+.articles {
+  margin-top: 30px;
+}
+
+.articles h3 {
+  text-align: center;
+}
+
+.articles h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.articles hr {
+  border-color: #38c4b0;
+}
+
+.articles span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.article-details .delete {
+  color: #d80909;
+  cursor: pointer;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.article-details .edit {
+  color: #238100;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.article {
+  cursor: pointer;
+}
+
+.article-menu {
+  border-bottom: .8px solid #38c4b0;
+  font-size: 20px;
+  font-weight: bold;
+
+  button {
+    background: none;
+    border: none;
+    padding-right: 8px;
+    margin-right: 16px;
+
+  }
+
+  .bold {
+    border-bottom: 4px solid #38c4b0;
+    padding-bottom: 5px;
+    margin-bottom: -2px;
+  }
+}
+
+.small-chip {
+  color: black;
+  font-size: 13px;
+  width: 60px;
+  background-color: #ebe8e8;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  position: relative;
+}
+
+.normal {
+  color: grey;
+}
+
+.article-details {
+  font-size: 15px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.pagination-wrapper {
+  overflow-x:auto;
+}
+
+.pagination {
+  justify-content: center;
+  margin:30px;
+}
+.page-link {
+  color: #38c4b0;
+}
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #38c4b0;
+    border-color: #38c4b0;
+}
+
+.no-content {
+  justify-content: center;
+  text-align: center;
+  margin-top: 14rem;
+  width: 100%;
+}
+
+.no-content p {
+  text-align: center;
+  letter-spacing: 0.3em;
+  color: #4b414b;
+  text-transform: uppercase;
+}
+
+.disabled {
+  display: none;
+}
